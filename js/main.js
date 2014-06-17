@@ -125,6 +125,7 @@ $(function () {
     // email generation
 
     $('#email').on('click', function (e) {
+        surveyPrompt();
         e.preventDefault();
         if (currentSnippets.length == 0) {
             return;
@@ -136,6 +137,8 @@ $(function () {
         }, 150);
     });
 
+    
+
     function generateEmailBody(linebreaks) {
         linebreaks = linebreaks ? linebreaks : false;
         var body = "";
@@ -145,6 +148,15 @@ $(function () {
             });
         }
         return body;
+    }
+
+    function surveyPrompt() {
+        var time = $.now();
+        console.log(time);
+        var digit = time % 10
+        if (digit == "9") {
+            $("#surveyMessageBox").slideDown("slow");
+        }
     }
 
     function updateCategories() {
@@ -326,7 +338,8 @@ $(function () {
         }
         return val;
     }
-
+    
+   
     // ZeroClipboard
     var clip = new ZeroClipboard($("#copytoclipboard"), {
         moviePath: "js/vendor/ZeroClipboard/ZeroClipboard.swf"
@@ -366,6 +379,7 @@ $(function () {
     });
 
     clip.on('mousedown', function (client) {
+        surveyPrompt();
         console.log('mousedown');
     });
 
@@ -387,6 +401,7 @@ $(function () {
         return true;
     }
     $(document).on('click', '#noFlashCopy', function (e) {
+        
         e.preventDefault();
         pushData('Clipboard');
         setTimeout(function () {
@@ -405,6 +420,9 @@ $(function () {
         }, 150);
     });
 });
+
+
+
 
 
 /***************************************
@@ -643,5 +661,5 @@ function tabLoop() {
             $(".control-item").first().find("span").first().trigger("mousedown");
         }
     });
-
 }
+
