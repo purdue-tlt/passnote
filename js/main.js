@@ -125,6 +125,12 @@ $(function () {
     // email generation
 
     $('#email').on('click', function (e) {
+        var time = $.now();
+        var digit = time % 10
+        if (digit == "3") {
+            $("#surveyMessageBox").fadeIn("slow");
+        }
+        
         e.preventDefault();
         if (currentSnippets.length == 0) {
             return;
@@ -134,6 +140,14 @@ $(function () {
         setTimeout(function () {
             document.location.href = "mailto:?body=" + body;
         }, 150);
+    });
+
+    $('#copytoclipboard').on('click', function (e) {
+        var time = $.now();
+        var digit = time % 10
+        if (digit == "3") {
+            $("#surveyMessageBox").fadeIn("slow");
+        }
     });
 
     function generateEmailBody(linebreaks) {
@@ -326,7 +340,8 @@ $(function () {
         }
         return val;
     }
-
+    
+   
     // ZeroClipboard
     var clip = new ZeroClipboard($("#copytoclipboard"), {
         moviePath: "js/vendor/ZeroClipboard/ZeroClipboard.swf"
@@ -387,6 +402,7 @@ $(function () {
         return true;
     }
     $(document).on('click', '#noFlashCopy', function (e) {
+        
         e.preventDefault();
         pushData('Clipboard');
         setTimeout(function () {
@@ -405,6 +421,9 @@ $(function () {
         }, 150);
     });
 });
+
+
+
 
 
 /***************************************
@@ -643,5 +662,5 @@ function tabLoop() {
             $(".control-item").first().find("span").first().trigger("mousedown");
         }
     });
-
 }
+
