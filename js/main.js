@@ -125,13 +125,7 @@ $(function () {
     // email generation
 
     $('#email').on('click', function (e) {
-        var time = $.now();
-        console.log(time);
-        var digit = time % 10
-        if (digit == "3") {
-            $("#surveyMessageBox").slideDown("slow");
-        }
-        
+        surveyPrompt();
         e.preventDefault();
         if (currentSnippets.length == 0) {
             return;
@@ -154,6 +148,15 @@ $(function () {
             });
         }
         return body;
+    }
+
+    function surveyPrompt() {
+        var time = $.now();
+        console.log(time);
+        var digit = time % 10
+        if (digit == "9") {
+            $("#surveyMessageBox").slideDown("slow");
+        }
     }
 
     function updateCategories() {
@@ -376,13 +379,7 @@ $(function () {
     });
 
     clip.on('mousedown', function (client) {
-
-        var time = $.now();
-        var digit = time % 10
-        if (digit == "3") {
-           $("#surveyMessageBox").slideDown("slow");
-        }
-    
+        surveyPrompt();
         console.log('mousedown');
     });
 
