@@ -1,0 +1,18 @@
+/*! jQuery UI - v1.10.3 - 2013-05-03
+* http://jqueryui.com
+* Copyright 2013 jQuery Foundation and other contributors; Licensed MIT */
+
+.ui-tabs{/*position:relative;*/padding:0;}
+.ui-tabs .ui-tabs-nav{margin:0;padding:0; width:100%; display:block; background:#fff;}
+.ui-tabs .ui-tabs-nav li{list-style:none;float:left;position:relative;top:0;margin:1px .2em 0 0;border-bottom-width:0;padding:0;white-space:nowrap;-webkit-box-shadow: inset 0px -8px 10px -8px rgba(84,84,84,1);
+		-moz-box-shadow: inset 0px -8px 10px -8px rgba(84,84,84,1);
+		box-shadow: inset 0px -8px 10px -8px rgba(84,84,84,1);}
+.ui-tabs .ui-tabs-nav li a{float:left;padding:.5em 1em;text-decoration:none;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active{margin-bottom:0;padding-bottom:0; background:url(../../img/pointer.png) no-repeat bottom center;
+
+-webkit-box-shadow: none;
+		-moz-box-shadow:  none;
+		box-shadow:  none;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-tabs-loading a{cursor:text;}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a{cursor:pointer}
+.ui-tabs .ui-tabs-panel{display:block;border-width:0;padding:0;background:0}
