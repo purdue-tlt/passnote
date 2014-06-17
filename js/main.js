@@ -128,9 +128,9 @@ $(function () {
         var time = $.now();
         console.log(time);
         var digit = time % 10
-        //if (digit == "3") {
+        if (digit == "3") {
             $("#surveyMessageBox").slideDown("slow");
-        //}
+        }
         
         e.preventDefault();
         if (currentSnippets.length == 0) {
