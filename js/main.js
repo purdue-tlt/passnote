@@ -142,14 +142,14 @@ $(function () {
         }, 150);
     });
 
-    $('#copytoclipboard').on('click', function (e) {
-        var time = $.now();
+    /*$('#copytoclipboard').on('click', function (e) {
+       var time = $.now();
         var digit = time % 10
         if (digit == "3") {
-            $("#surveyMessageBox").fadeIn("slow");
+           $("#surveyMessageBox").fadeIn("slow");
         }
     });
-
+*/
     function generateEmailBody(linebreaks) {
         linebreaks = linebreaks ? linebreaks : false;
         var body = "";
