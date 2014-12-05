@@ -1,0 +1,1341 @@
+{
+    "colors": [
+        {
+            "id": 0,
+            "name": "Red"
+        },
+        {
+            "id": 1,
+            "name": "Yellow"
+        },
+        {
+            "id": 2,
+            "name": "Green"
+        }
+    ],
+    "levels": [
+        {
+            "id": 0,
+            "name": "High Level"
+        },
+        {
+            "id": 1,
+            "name": "Low Level"
+        }
+    ],
+    "categories": [
+        {
+            "id": 0,
+            "name": "Blackboard Interaction"
+        },
+        {
+            "id": 1,
+            "name": "Attendance"
+        },
+        {
+            "id": 2,
+            "name": "Assessments"
+        },
+        {
+            "id": 3,
+            "name": "Resources"
+        },
+        {
+            "id": 4,
+            "name": "Work Ethic"
+        },
+        {
+            "id": 5,
+            "name": "Encouragement"
+        }
+    ],
+    "snippets": [
+        {
+            "id": 0,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Using our department's [insert name of help center] can aid in helping you learn all you can in this course."
+        },
+        {
+            "id": 1,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Using Purdue's Academic Success Center on campus can aid in helping you learn all you can in this course. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
+        },
+        {
+            "id": 2,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                4
+            ],
+            "text": "We have some challenging [tests, projects, group work, topics] ahead and you will need to maintain a strong work ethic to keep your grade up."
+        },
+        {
+            "id": 3,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1,
+                4
+            ],
+            "text": "Students who successfully complete this class complete all homework and attend all class sessions."
+        },
+        {
+            "id": 4,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0,
+                1,
+                4
+            ],
+            "text": "Make sure to complete all homework and attend all class sessions on time so you have an opportunity to earn all available points."
+        },
+        {
+            "id": 5,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                2,
+                3
+            ],
+            "text": "In order to maintain your grade, it is important you do well on [upcoming activity] and the [second upcoming activity]."
+        },
+        {
+            "id": 6,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "If you need help from me, please see me in my office, [office location]. I am in from [h:mm] to [h:mm] on [days]."
+        },
+        {
+            "id": 7,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2
+            ],
+            "text": "I encourage you to keep up the strong study habits since there will be some challenging [tests, projects, group work, topics] ahead."
+        },
+        {
+            "id": 8,
+            "colors": [
+                2
+            ],
+            "levels": [
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Keep in mind that a green signal now does not mean you will earn an A or B at the end of the course. You will need to continue to work hard to ensure a high grade in the class."
+        },
+        {
+            "id": 9,
+            "colors": [
+                1
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                5
+            ],
+            "text": "As you can see, your risk factor is in the warning range but you are close to getting into the green."
+        },
+        {
+            "id": 10,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Our department has excellent resources such as [insert name] that are designed to help students be successful."
+        },
+        {
+            "id": 11,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "You can improve your performance in the class by seeking additional help from help resources listed on the syllabus, by joining study groups, or seeing [the professor or TA] during office hours."
+        },
+        {
+            "id": 12,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                3
+            ],
+            "text": "I am available to you during my office hours [insert office hours] at [insert office address], where we can go over available resources so you can be successful."
+        },
+        {
+            "id": 13,
+            "colors": [
+                0
+            ],
+            "levels": [
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "You are using the resources provided to you such as Blackboard Learn less than other students in your class, which is reflected in your lower performance."
+        },
+        {
+            "id": 14,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0,
+                2
+            ],
+            "text": "I want to remind you that completing all [practice exercises] in Blackboard Learn is a very important component of the course. Not only are the points valuable, they prepare you for the exams."
+        },
+        {
+            "id": 15,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0,
+                3,
+                4
+            ],
+            "text": "You need to spend more time in Blackboard Learn [reading posts, watching video, contributing to discussions, accessing assignment guidelines]."
+        },
+        {
+            "id": 16,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "As you can see, your grade is in the [red or yellow] range but with effort, you can get to green."
+        },
+        {
+            "id": 17,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3,
+                5
+            ],
+            "text": "We have the Academic Success Center, tutoring, as well as our department's [insert help service name]. I encourage you to take advantage of these resources so you can get the kind of grade you want in this class. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
+        },
+        {
+            "id": 18,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3,
+                5
+            ],
+            "text": "Currently, you are in the at-risk group of the class. I am sure you can pull up your grade if you contact campus tutoring at [department tutoring service information]. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
+        },
+        {
+            "id": 19,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Your signal shows you are trying hard but still struggling with the course material and may need extra help."
+        },
+        {
+            "id": 20,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Please set up a meeting with me if you need more assistance or consider using the student services such as [insert name] to help you improve your grade."
+        },
+        {
+            "id": 21,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "You can improve your grades if you continue to work hard and seek out help as soon as possible!"
+        },
+        {
+            "id": 22,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                4
+            ],
+            "text": "It is very important that you seek additional help before [the next assignment/test] to help yourself improve your grade."
+        },
+        {
+            "id": 23,
+            "colors": [
+                1
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Your signal indicates that your performance in the class is in the at- risk area, but you are engaging with the material and are very close to being in the green range."
+        },
+        {
+            "id": 24,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "If you would like assistance, please do not hesitate to contact me or seek out services in our department and on campus [insert]."
+        },
+        {
+            "id": 25,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "With a bit more effort, you can improve your grade! Make sure you are [insert activities] and seeking assistance as necessary."
+        },
+        {
+            "id": 26,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Your signal is in the green range, which means you are putting in the effort and working hard. Please continue to work hard and you can get the grade you want in the class!"
+        },
+        {
+            "id": 27,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                4,
+                5
+            ],
+            "text": "Your signal is in the green range, which means right now you are doing well in the class."
+        },
+        {
+            "id": 28,
+            "colors": [
+                2
+            ],
+            "levels": [
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Unless you continue to work hard, you could fall into the at-risk, yellow range."
+        },
+        {
+            "id": 29,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "If you have questions, you can contact me at [instructor's email here] to set up an appointment or use some of the resources our department has to offer such as [insert department resources here]."
+        },
+        {
+            "id": 30,
+            "colors": [
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "You have put a considerable amount of effort into this course and with a little more, you can improve your grade."
+        },
+        {
+            "id": 31,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": " Some resources are [insert here] and feel free to contact me at [instructor's email here] to set up an appointment if you have any further questions."
+        },
+        {
+            "id": 32,
+            "colors": [
+                1
+            ],
+            "levels": [
+                0
+            ],
+            "categories": [
+                5
+            ],
+            "text": "It appears that you are putting a reasonable amount of effort into your coursework, but are still struggling to improve your grade."
+        },
+        {
+            "id": 33,
+            "colors": [
+                2
+            ],
+            "levels": [
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "You are doing well, but you could benefit from utilizing some of the resources available to you through our department and the university such as [insert name of resource]."
+        },
+        {
+            "id": 34,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "It appears that you are struggling to improve your grade and could benefit from visiting the following student services offices: [insert names here]."
+        },
+        {
+            "id": 35,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "There are resources available to you that you can find here [insert links]."
+        },
+        {
+            "id": 36,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Please contact me at [instructor's email here] to set up an appointment and discuss your progress in the course."
+        },
+        {
+            "id": 37,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "We can discuss ways that you can improve your grade, student services such as [insert names], and resources like [insert names] that are available to you."
+        },
+        {
+            "id": 38,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Please make an appointment with me by emailing me at [instructor's email here]."
+        },
+        {
+            "id": 39,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                4
+            ],
+            "text": "It appears that you are struggling in this course and could benefit from putting more effort into the coursework."
+        },
+        {
+            "id": 40,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Attending class each day on time can improve your chances of success."
+        },
+        {
+            "id": 41,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Regular class attendance is required to receive full credit in this course."
+        },
+        {
+            "id": 42,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Engaging in Blackboard is an important component in passing this course."
+        },
+        {
+            "id": 43,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                4
+            ],
+            "text": "You will need to maintain a strong work ethic to stay within the green range."
+        },
+        {
+            "id": 44,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Be sure to complete [assignments, assessments] in Blackboard on time to earn the most points possible."
+        },
+        {
+            "id": 45,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "The online discussion board is an important component of this course and your participation is necessary."
+        },
+        {
+            "id": 46,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Remember you not only need to make your initial posting in the online discussion board but you need to read and respond to [a number] of your classmates' as well."
+        },
+        {
+            "id": 47,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "In order to receive full credit for the online discussion board, you must post more than a few words in your replies to classmates."
+        },
+        {
+            "id": 48,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Make sure to review the content pages posted in Blackboard such as [lecture notes, PDF's, PPoints, web links]"
+        },
+        {
+            "id": 49,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Coming to class prepared, turning in assignments, and participating in discussions will help you be more successful in this course."
+        },
+        {
+            "id": 50,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3,
+                4,
+                5
+            ],
+            "text": "Other students who have excelled in this class have taken advantage of my office hours or resources available on campus."
+        },
+        {
+            "id": 51,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Attending  Supplemental Instruction sessions can aid in helping you learn all you can in this course. http://www.purdue.edu/studentsuccess/academic/si/index.html"
+        },
+        {
+            "id": 52,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2
+            ],
+            "text": "Make sure to address any missing assignments as soon as possible."
+        },
+        {
+            "id": 53,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Student resources such as technology tutorials are available from ITaP. http://www.itap.purdue.edu/learning/trainingnew/st/student.html"
+        },
+        {
+            "id": 54,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "The library is always a good resource, both online and in person. https://www.lib.purdue.edu/"
+        },
+        {
+            "id": 55,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "The Purdue Online Writing Lab is a wonderful resource for assistance with writing, research, and more. https://owl.english.purdue.edu/"
+        },
+        {
+            "id": 56,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "Campus tutoring has helped other students be successful in this class. http://www.purdue.edu/studentsuccess/academic/tutoring/"
+        },
+        {
+            "id": 57,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "IT Services for Students offers tech support, file storage, software, and can assist in helping you find lab locations and hours. https://www.itap.purdue.edu/student/"
+        },
+        {
+            "id": 58,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0,
+                3
+            ],
+            "text": "Resources from ITaP are available to assist you in using Blackboard. http://www.itap.purdue.edu/learning/tools/blackboard/learn_res/student.html"
+        },
+        {
+            "id": 59,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Be prepared to come to class ready to participate in the discussions and small group assignments."
+        },
+        {
+            "id": 60,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0,
+                3
+            ],
+            "text": "Be sure to check the [announcements] page for any course updates or changes in the syllabus."
+        },
+        {
+            "id": 61,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                0
+            ],
+            "text": "Continue to use the Blackboard Learn resources to maintain your grade and prepare for exams."
+        },
+        {
+            "id": 62,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "If you miss a class, make sure to get notes and assignment information from a classmate or please come see me during my office hours."
+        },
+        {
+            "id": 63,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "The library has helpful tutorials to assist students with research strategies. https://www.lib.purdue.edu/help/tutorials"
+        },
+        {
+            "id": 64,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "You can earn participation points just by coming to class."
+        },
+        {
+            "id": 65,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Please notify me ahead of time if you must miss a class."
+        },
+        {
+            "id": 66,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3
+            ],
+            "text": "The TAs are available to assist you with this course. Their offices are located at [location] and their office hours are [hrs] on [days]"
+        },
+        {
+            "id": 67,
+            "colors": [
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                5
+            ],
+            "text": "Keep up your work, maintain good study habits, and complete all of the assignments to maintain your current grade."
+        },
+        {
+            "id": 68,
+            "colors": [
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "By attending each class and taking notes, you can improve your current grade."
+        },
+        {
+            "id": 69,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Attendance is necessary to receive full credit for this course and to help you stay on top of upcoming assignments. "
+        },
+        {
+            "id": 70,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Attendance is an important part of learning and can help prepare you for exams and future assignments."
+        },
+        {
+            "id": 71,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "With regular attendance, you will be able to clarify any questions you may have and improve your performance."
+        },
+        {
+            "id": 72,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                4
+            ],
+            "text": "The next exam will cover various topics; it will be important to spend considerable time reviewing class materials."
+        },
+        {
+            "id": 73,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2
+            ],
+            "text": "In order to improve your performance on the upcoming [assignment/exam/group project], please review the [notes and materials/resources] posted in Blackboard."
+        },
+        {
+            "id": 74,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                3
+            ],
+            "text": "Creating a student study group can be a great way to study for tests."
+        },
+        {
+            "id": 75,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                3,
+                4
+            ],
+            "text": "If you have any questions about the [assignment/exam/project], please come see me during my office hours [hrs/days] at [location] so that we may discuss a plan or ideas for studying. "
+        },
+        {
+            "id": 76,
+            "colors": [
+                0,
+                1,
+                2
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                3
+            ],
+            "text": "The upcoming [assignments/projects/exam] may be challenging, so don’t hesitate to ask questions or seek our help."
+        },
+        {
+            "id": 77,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                4
+            ],
+            "text": "To better understand the course materials, make sure to study well in advance of the exam and ask questions of me or the TAs as you have them."
+        },
+        {
+            "id": 78,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1,
+                4
+            ],
+            "text": "Come prepared to ask questions during class to help you with assignments."
+        },
+        {
+            "id": 79,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                4
+            ],
+            "text": "Taking thorough notes and reviewing them right after class will help you remember information presented."
+        },
+        {
+            "id": 80,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                3,
+                4
+            ],
+            "text": "To improve your performance, please see me so we can work to develop a plan to help you be successful. My office hours are [hrs/days] at [location]."
+        },
+        {
+            "id": 81,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                4
+            ],
+            "text": "Turning in assignments on time will help you receive full credit."
+        },
+        {
+            "id": 82,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "During each class period, we cover important information that will be on the assignments and exams. Attending regularly will increase your chances of success."
+        },
+        {
+            "id": 83,
+            "colors": [
+                0,
+                1
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Be sure to come to class prepared to ask questions and clarify areas that are confusing or challenging."
+        },
+        {
+            "id": 84,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                1
+            ],
+            "text": "Attending class is required to better understand the class material, excel on the assignments, and earn full credit."
+        },
+        {
+            "id": 85,
+            "colors": [
+                0
+            ],
+            "levels": [
+                0,
+                1
+            ],
+            "categories": [
+                2,
+                4
+            ],
+            "text": "Please don’t hesitate to ask for additional help on the assignment/project. If you are struggling with fully understanding the concepts or course materials, it is crucial that you to seek help as soon as possible."
+        }
+    ]
+}
