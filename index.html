@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <title>PassNote</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600,700|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="css/vendor/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+		<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600,700|PT+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
     </head>
@@ -24,8 +24,8 @@
 					<div id="tabs">
 						<ul>
 							<li id="red"><a class="tipsy-nw" href="#color-0" title="Low performing student"><img src="img/red.png" alt="red" /></a></li>
-							<li id="yellow"><a class="tipsy-n"  href="#color-1" title="Average performing student"><img src="img/yellow.png" alt="Yellow" /></a></li>
-							<li id="green"><a class="tipsy-ne"  href="#color-2" title="High performing student"><img src="img/green.png" alt="Green" /></a></li>
+							<li id="yellow"><a class="tipsy-n" href="#color-1" title="Average performing student"><img src="img/yellow.png" alt="Yellow" /></a></li>
+							<li id="green"><a class="tipsy-ne" href="#color-2" title="High performing student"><img src="img/green.png" alt="Green" /></a></li>
 						</ul>
 					</div>
 					<div class="control-item">    
@@ -52,37 +52,43 @@
 		</div>
 		
 		<div id="content">
-			<div id ="surveyMessageBox" style="display: none;background:#fff; background-color:#FFFF99; text-align:center;  width:680px; font:400 18px 'Raleway', sans-serif; weight:bold; color:#7d2716; margin:20px auto 0; padding:.5em 1em .5em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative">
+            <div id="contentWrapper">
+                <div id="messageBox">
+                </div>
+                <div id="paper">
+                    <div id="actions">
+                        <a href="http://www.itap.purdue.edu/studio/passnote/" target="_blank" rel="external" id="science" title="The Science Behind Passnote"><img src="img/tab-research-off.png" alt="The Science Behind PassNote" /></a>
+                        <a href="#" id="noFlashCopy" style="display:none;" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
+                        <a href="#" id="copytoclipboard" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
+                        <a href="#" id="email" title="Send an Email"><img src="img/tab-email-off.png" alt="Email" /></a>
+                        <span class="shadow"></span>
+                    </div>
 
-				Please take our Passnote survey	<a href=" https://jfe.qualtrics.com/form/SV_et91Pk11gTn9Vv7" target="_blank">Here</a>!
+                    <h2 class="greeting">Dear Student,</h2>
+                    <p id="word-count" style="display:none">
+                        <a id="help-word-count" href="#inline2">Word Count: <i>0</i></a>
+                    </p>
 
-			</div>
-			<div id ="paper">
-				<div id="actions">
-					<a href="http://www.itap.purdue.edu/studio/passnote/" target="_blank" rel="external" id="science" title="The Science Behind Passnote"><img src="img/tab-research-off.png" alt="The Science Behind PassNote" /></a>
-					<a href="#" id="noFlashCopy" style="display:none;" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
-					<a href="#" id="copytoclipboard" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
-					<a href="#" id="email" title="Send an Email"><img src="img/tab-email-off.png" alt="Email" /></a>
-					<span class="shadow"></span>
-				</div>
-				
-				<h2 class="greeting">Dear Student,</h2>
-				<p id="word-count" style="display:none">
-					<a id="help-word-count" href="#inline2">Word Count: <i>0</i></a>
-				</p>
-				
-				<img id="help1" src="img/help1.gif" alt="To get started, choose a performance level and topic." />
-				<img id="help2" style="display:none; margin-top:70px;" src="img/help2.gif" alt="Customize your message by adding snippets." />
-				
-				<ul id="selections"></ul>
-			</div>
-		
-			<footer class="clearfix">
-				<p>PassNote v1.1.0, brought to you by <a href="http://www.purdue.edu/purdue/disclaimer.html" target="_blank">Purdue University</a>.<br>
-                
-                Visit <a href="http://www.itap.purdue.edu/studiohq">Studio HQ</a> for a <a href="http://www.itap.purdue.edu/studiohq/guide/passnote.html">getting started guide</a>. <br />
-                Need help? Have trouble accessing this page because of a disability? Contact us at <a href="mailto:studiohelp@purdue.edu">studiohelp@purdue.edu</a>.</p>
-			</footer>
+                    <img id="help1" src="img/help1.gif" alt="To get started, choose a performance level and topic." />
+                    <img id="help2" style="display:none;" src="img/help2.gif" alt="Customize your message by adding snippets." />
+
+                    <ul id="selections"></ul>
+                </div>
+            </div>
+            <footer class="clearfix">
+                <p>
+                    <a href="http://www.purdue.edu/" id="purdue-logo" target="_blank"><img src="img/footer-purdue.png" alt="Purdue University"></a>
+                    <a href="http://www.purdue.edu/studio" id="studio-logo" target="_blank"><img src="img/footer-studio.png" alt="Purdue Studio"></a>
+                </p>
+                <p>
+                    PassNote v1.1.0, brought to you by <a href="http://www.purdue.edu/purdue/disclaimer.html" target="_blank">Purdue University</a>.<br />
+                    Visit <a href="http://www.itap.purdue.edu/studio/hq/">Studio HQ</a> for a <a href="http://www.purdue.edu/studiohq/guide/passport.html">getting started guide</a>.<br />
+                    Need help or have trouble accessing this page? Contact <a href="mailto:studiohelp@purdue.edu">studiohelp@purdue.edu</a>.
+                </p>
+                <p>
+                    Interested in using PassNote? <a href="passnote-opensource-1.1.0.zip">Download the source code</a>.<br />Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+                </p>
+            </footer>
 		</div>
 		
 		<div id="inline2" class="popup" style="display:none">
@@ -121,12 +127,14 @@
 		</div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script><script src="js/vendor/jquery-ui-1.10.3.min.js"><\/script>')</script>
 
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js//vendor/jquery.dropdown.js"></script>
+        <script src="js/vendor/jquery.antiscroll.js"></script>
+        <script src="js/vendor/jquery.tipsy.js"></script>
+        <script src="js/vendor/jquery.dropdown.js"></script>
         <script src="js/vendor/ZeroClipboard/ZeroClipboard.js"></script>
        	<script src="js/vendor/jquery.fancybox.js"></script>
+		
         <script src="js/main.js"></script>
 		
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
