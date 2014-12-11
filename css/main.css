@@ -22,12 +22,12 @@ html, body	{min-height:100%; height:100%;}
 body		{background:url(../img/right-bg.gif) repeat-x fixed #D9DEDF;}
 
 #content	{min-width:460px; text-align:center; min-height:100%; height:auto !important; position:absolute; top:0; right:0; bottom:0; left:278px; /* box-shadow:0 -20px 7px #000; */ margin:0;}
-#contentWrapper {margin:52px 0 0; padding:0 0 100px; background:#ecf0f1; z-index:-2; position:relative;}
+#contentWrapper {margin:52px 0 0; padding:0 0 100px; background:#ecf0f1; position:relative;}
 
 /* ==========================================================================
    PAPER
    ========================================================================== */
-#paper	{background:#fff; text-align:left; font:400 1.1em/30px 'PT Sans', sans-serif; width:680px; min-height:450px; margin:0 auto; top:-20px; padding:0 2em 2em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative;}
+#paper	{background:#fff; text-align:left; font:400 1.1em/30px 'PT Sans', sans-serif; width:680px; min-height:450px; margin:0 auto; top:-20px; padding:0 2em 2em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative; z-index:0;}
 #paper:before,#paper:after{content:"";height:98%;position:absolute;width:100%;z-index:-1}
 #paper:before{background:#fff;box-shadow:0 0 8px rgba(0,0,0,.2);left:-5px;top:4px;transform:rotate(-2.5deg)}
 #paper:after{background:#fff;box-shadow:0 0 3px rgba(0,0,0,.2);right:-3px;top:1px;transform:rotate(1.4deg)}
