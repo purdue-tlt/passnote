@@ -32,7 +32,7 @@ body		{background:url(../img/right-bg.gif) repeat-x fixed #D9DEDF;}
 #paper:before{background:#fff;box-shadow:0 0 8px rgba(0,0,0,.2);left:-5px;top:4px;transform:rotate(-2.5deg)}
 #paper:after{background:#fff;box-shadow:0 0 3px rgba(0,0,0,.2);right:-3px;top:1px;transform:rotate(1.4deg)}
 
-#messageBox	{display:none; background:#fff; background-color:#FFFF99; text-align:center;  width:680px; font:400 18px 'Raleway', sans-serif; weight:bold; color:#7d2716; margin:20px auto 0; padding:.5em 1em .5em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative;}
+#messageBox	{display:none; background:#fff; background-color:#FFFF99; text-align:center; top:-20px; width:680px; font:400 18px 'Raleway', sans-serif; font-weight:bold; color:#7d2716; margin:20px auto 0; padding:.5em 1em .5em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative;}
 .greeting	{font:400 30px 'Raleway', sans-serif; color:#7d2716; height:100px; line-height:100px;}
 
 /* ==========================================================================
