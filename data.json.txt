@@ -26,7 +26,7 @@
     "categories": [
         {
             "id": 0,
-            "name": "[* name of LMS *] Interaction"
+            "name": "Blackboard Interaction"
         },
         {
             "id": 1,
@@ -78,7 +78,7 @@
             "categories": [
                 3
             ],
-            "text": "Using [* name of campus Student Success Center *] on campus can aid in helping you learn all you can in this course. [* campus student success URL *]"
+            "text": "Using Purdue's Academic Success Center on campus can aid in helping you learn all you can in this course. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
         },
         {
             "id": 2,
@@ -253,7 +253,7 @@
             "categories": [
                 0
             ],
-            "text": "You are using the resources provided to you such as [* name of LMS *] less than other students in your class, which is reflected in your lower performance."
+            "text": "You are using the resources provided to you such as Blackboard Learn less than other students in your class, which is reflected in your lower performance."
         },
         {
             "id": 14,
@@ -268,7 +268,7 @@
                 0,
                 2
             ],
-            "text": "I want to remind you that completing all [practice exercises] in [* name of LMS *] is a very important component of the course. Not only are the points valuable, they prepare you for the exams."
+            "text": "I want to remind you that completing all [practice exercises] in Blackboard Learn is a very important component of the course. Not only are the points valuable, they prepare you for the exams."
         },
         {
             "id": 15,
@@ -284,7 +284,7 @@
                 3,
                 4
             ],
-            "text": "You need to spend more time in [* name of LMS *] [reading posts, watching video, contributing to discussions, accessing assignment guidelines]."
+            "text": "You need to spend more time in Blackboard Learn [reading posts, watching video, contributing to discussions, accessing assignment guidelines]."
         },
         {
             "id": 16,
@@ -315,7 +315,7 @@
                 3,
                 5
             ],
-            "text": "We have the [* name of campus resource *], tutoring, as well as our department's [insert help service name]. I encourage you to take advantage of these resources so you can get the kind of grade you want in this class. [* campus resource URL *]"
+            "text": "We have the Academic Success Center, tutoring, as well as our department's [insert help service name]. I encourage you to take advantage of these resources so you can get the kind of grade you want in this class. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
         },
         {
             "id": 18,
@@ -330,7 +330,7 @@
                 3,
                 5
             ],
-            "text": "Currently, you are in the at-risk group of the class. I am sure you can pull up your grade if you contact campus tutoring at [department tutoring service information]. [* tutoring service url *]"
+            "text": "Currently, you are in the at-risk group of the class. I am sure you can pull up your grade if you contact campus tutoring at [department tutoring service information]. http://www.purdue.edu/studentsuccess/academic/asc/index.html"
         },
         {
             "id": 19,
@@ -401,7 +401,7 @@
             "categories": [
                 5
             ],
-            "text": "Your signal indicates that your performance in the class is in the at-risk area, but you are engaging with the material and are very close to being in the green range."
+            "text": "Your signal indicates that your performance in the class is in the at- risk area, but you are engaging with the material and are very close to being in the green range."
         },
         {
             "id": 24,
@@ -674,7 +674,7 @@
             "categories": [
                 0
             ],
-            "text": "Engaging in [* name of LMS *] is an important component in passing this course."
+            "text": "Engaging in Blackboard is an important component in passing this course."
         },
         {
             "id": 43,
@@ -703,7 +703,7 @@
             "categories": [
                 0
             ],
-            "text": "Be sure to complete [assignments, assessments] in [* name of LMS *] on time to earn the most points possible."
+            "text": "Be sure to complete [assignments, assessments] in Blackboard on time to earn the most points possible."
         },
         {
             "id": 45,
@@ -763,7 +763,7 @@
             "categories": [
                 0
             ],
-            "text": "Make sure to review the content pages posted in [* name of LMS *] such as [lecture notes, PDF's, PPoints, web links]"
+            "text": "Make sure to review the content pages posted in Blackboard such as [lecture notes, PDF's, PPoints, web links]"
         },
         {
             "id": 49,
@@ -810,7 +810,7 @@
             "categories": [
                 3
             ],
-            "text": "Attending [* name of campus Supplemental Instruction *] sessions can aid in helping you learn all you can in this course. [* supplemental instruction URL *]"
+            "text": "Attending  Supplemental Instruction sessions can aid in helping you learn all you can in this course. http://www.purdue.edu/studentsuccess/academic/si/index.html"
         },
         {
             "id": 52,
@@ -841,7 +841,7 @@
             "categories": [
                 3
             ],
-            "text": "Student resources such as technology tutorials are available from [* name of campus IT *]. [* resource URL *]"
+            "text": "Student resources such as technology tutorials are available from ITaP. http://www.itap.purdue.edu/learning/trainingnew/st/student.html"
         },
         {
             "id": 54,
@@ -856,7 +856,7 @@
             "categories": [
                 3
             ],
-            "text": "The library is always a good resource, both online and in person. [* library URL *]"
+            "text": "The library is always a good resource, both online and in person. https://www.lib.purdue.edu/"
         },
         {
             "id": 55,
@@ -871,7 +871,7 @@
             "categories": [
                 3
             ],
-            "text": "The [* name of writing resource *] is a wonderful resource for assistance with writing, research, and more. [* resource URL *]"
+            "text": "The Purdue Online Writing Lab is a wonderful resource for assistance with writing, research, and more. https://owl.english.purdue.edu/"
         },
         {
             "id": 56,
@@ -886,7 +886,7 @@
             "categories": [
                 3
             ],
-            "text": "Campus tutoring has helped other students be successful in this class. [* campus tutoring URL *]"
+            "text": "Campus tutoring has helped other students be successful in this class. http://www.purdue.edu/studentsuccess/academic/tutoring/"
         },
         {
             "id": 57,
@@ -902,7 +902,7 @@
             "categories": [
                 3
             ],
-            "text": "[* name of IT Services for Students *] offers tech support, file storage, software, and can assist in helping you find lab locations and hours. [* student IT service URL *]"
+            "text": "IT Services for Students offers tech support, file storage, software, and can assist in helping you find lab locations and hours. https://www.itap.purdue.edu/student/"
         },
         {
             "id": 58,
@@ -919,7 +919,7 @@
                 0,
                 3
             ],
-            "text": "Resources from [* name of campus IT *] are available to assist you in using [* name of LMS *]. [* help resource URL *]"
+            "text": "Resources from ITaP are available to assist you in using Blackboard. http://www.itap.purdue.edu/learning/tools/blackboard/learn_res/student.html"
         },
         {
             "id": 59,
@@ -966,7 +966,7 @@
             "categories": [
                 0
             ],
-            "text": "Continue to use the [* name of LMS *] resources to maintain your grade and prepare for exams."
+            "text": "Continue to use the Blackboard Learn resources to maintain your grade and prepare for exams."
         },
         {
             "id": 62,
@@ -998,7 +998,7 @@
             "categories": [
                 3
             ],
-            "text": "The library has helpful tutorials to assist students with research strategies. [* library tutorials URL *]"
+            "text": "The library has helpful tutorials to assist students with research strategies. https://www.lib.purdue.edu/help/tutorials"
         },
         {
             "id": 64,
@@ -1149,7 +1149,7 @@
             "categories": [
                 2
             ],
-            "text": "In order to improve your performance on the upcoming [assignment/exam/group project], please review the [notes and materials/resources] posted in [* name of LMS *]."
+            "text": "In order to improve your performance on the upcoming [assignment/exam/group project], please review the [notes and materials/resources] posted in Blackboard."
         },
         {
             "id": 74,

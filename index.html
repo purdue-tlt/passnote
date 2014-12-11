@@ -1,19 +1,4 @@
-﻿<!-- 
-	PassNote v1.1.0 | Copyright 2014 Purdue University
-
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
-
-	   http://www.apache.org/licenses/LICENSE-2.0
-
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
--->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
@@ -28,6 +13,7 @@
         <link rel="stylesheet" href="css/main.css" />
 		<link href="http://fonts.googleapis.com/css?family=Raleway:400,200,300,100,500,600,700|PT+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css" />
 		<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
     </head>
     <body>
 	
@@ -66,31 +52,43 @@
 		</div>
 		
 		<div id="content">
-			<div id ="messageBox">
-			</div>
-			<div id ="paper">
-				<div id="actions">
-					<a href="http://www.itap.purdue.edu/studio/passnote/" target="_blank" rel="external" id="science" title="The Science Behind Passnote"><img src="img/tab-research-off.png" alt="The Science Behind PassNote" /></a>
-					<a href="#" id="noFlashCopy" style="display:none;" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
-					<a href="#" id="copytoclipboard" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
-					<a href="#" id="email" title="Send an Email"><img src="img/tab-email-off.png" alt="Email" /></a>
-					<span class="shadow"></span>
-				</div>
-				
-				<h2 class="greeting">Dear Student,</h2>
-				<p id="word-count" style="display:none">
-					<a id="help-word-count" href="#inline2">Word Count: <i>0</i></a>
-				</p>
-				
-				<img id="help1" src="img/help1.gif" alt="To get started, choose a performance level and topic." />
-				<img id="help2" style="display:none; margin-top:70px;" src="img/help2.gif" alt="Customize your message by adding snippets." />
-				
-				<ul id="selections"></ul>
-			</div>
-		
-			<footer class="clearfix">
-				<p>v1.1.0 - Copyright &copy; 2014 Purdue University<br/>PassNote by <a href="https://www.purdue.edu/">Purdue University</a> is licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.</p>
-			</footer>		
+            <div id="contentWrapper">
+                <div id="messageBox">
+                </div>
+                <div id="paper">
+                    <div id="actions">
+                        <a href="http://www.itap.purdue.edu/studio/passnote/" target="_blank" rel="external" id="science" title="The Science Behind Passnote"><img src="img/tab-research-off.png" alt="The Science Behind PassNote" /></a>
+                        <a href="#" id="noFlashCopy" style="display:none;" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
+                        <a href="#" id="copytoclipboard" title="Copy to Clipboard"><img src="img/tab-copy-off.png" alt="Copy to Clipboard" /></a>
+                        <a href="#" id="email" title="Send an Email"><img src="img/tab-email-off.png" alt="Email" /></a>
+                        <span class="shadow"></span>
+                    </div>
+
+                    <h2 class="greeting">Dear Student,</h2>
+                    <p id="word-count" style="display:none">
+                        <a id="help-word-count" href="#inline2">Word Count: <i>0</i></a>
+                    </p>
+
+                    <img id="help1" src="img/help1.gif" alt="To get started, choose a performance level and topic." />
+                    <img id="help2" style="display:none;" src="img/help2.gif" alt="Customize your message by adding snippets." />
+
+                    <ul id="selections"></ul>
+                </div>
+            </div>
+            <footer class="clearfix">
+                <p>
+                    <a href="http://www.purdue.edu/" id="purdue-logo" target="_blank"><img src="img/footer-purdue.png" alt="Purdue University"></a>
+                    <a href="http://www.purdue.edu/studio" id="studio-logo" target="_blank"><img src="img/footer-studio.png" alt="Purdue Studio"></a>
+                </p>
+                <p>
+                    PassNote v1.1.0, brought to you by <a href="http://www.purdue.edu/purdue/disclaimer.html" target="_blank">Purdue University</a>.<br />
+                    Visit <a href="http://www.itap.purdue.edu/studio/hq/">Studio HQ</a> for a <a href="http://www.purdue.edu/studiohq/guide/passport.html">getting started guide</a>.<br />
+                    Need help or have trouble accessing this page? Contact <a href="mailto:studiohelp@purdue.edu">studiohelp@purdue.edu</a>.
+                </p>
+                <p>
+                    Interested in using PassNote? <a href="passnote-opensource-1.1.0.zip">Download the source code</a>.<br />Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+                </p>
+            </footer>
 		</div>
 		
 		<div id="inline2" class="popup" style="display:none">
@@ -102,7 +100,31 @@
 				<li><b class="red">62 words for red messages</b></li>
 			</ul>
 		</div>
-
+		<div id="inline" class="popup" style="display:none">
+			<h1>The Science Behind Passnote</h1>
+			<h2>Why it Works</h2>
+			<p>Students receiving constructive feedback from faculty report gains in problem solving and communication skills. Feedback perceived as encouraging and aiding in student development tends to be more effective. Students note that late feedback (e.g., after its usefulness has expired) is not at all helpful nor effective. Messages constructed according to best practices are perceived to be of more quality by students. Further, the higher the level of quality perceived, the greater the impact the message has on students with regard to their self-efficacy and course performance. </p>
+			<p><strong>Research from Purdue University shows that:</strong></p>
+			<ul>
+				<li>Explicit feedback with direct actions (e.g., be sure to compare your exams with the key on the website) to be taken is far more effective and useful for students than implied statements (e.g., you need to spend more time on the assignments) </li>
+				<li>Feedback should focus on direct outcomes of behaviors. Further, messages should be delivered as soon as possible to ensure relevancy and effectiveness </li>
+				<li>Instructors should strive to write short messages. Effective messages tended to average 40 words for green messages, 52 words for yellow messages, and 62 words for red messages </li>
+				<li>Increasing a student’s self-efficacy will increase their likelihood of academic success.</li>
+				<li>When students perceive feedback as threatening (e.g., you will fail this course) without information about how to improve their situation (e.g., you will fail this course unless you start turning in assignments on time), it is wholly ineffective</li>
+				<li>Highly effective messages use the words "we" and "you," while highly ineffective messages refer to the instructor as "I" and never use the word "we." In short, the you/we language left students feeling capable, while the instructor-centered language (I) left students feeling as though their final grade in the course was out of the students’ control.</li>  
+			</ul>
+			<p><strong>References</strong></p>
+			<ul class="cite">
+				<li>Arnold, K., Campbell, J. P., & Pistilli, M. D. (2012). <em>Signals at Purdue: Impacting learning through analytic technology</em>. Paper presented at EDUCAUSE Learning Initiative Annual Meeting, Austin, TX. </li>
+				<li>Bjorklund, S. A., Parente, J. M., & Sathianathan, D. (2004). Effects of faculty interaction and feedback on gains in student skills. <em>Journal of Engineering Education, 93,</em> 153-160.</li> 
+				<li>Ehle, T. Z., & Gettings, P. E. (2012). <em>The Role of computer mediated instructional message quality on perceived message effects in an academic analytics intervention.</em> Paper presented at the International Communication Association annual conference, London, England.</li>
+				<li>Gettings, P. E., Waters, J., Selzer King, A., Tanes, Z., Pistilli, M. D. (2013). <em>Message testing and self-efficacy in Course Signals: Formative evaluation to identify effective communication strategies</em>. Paper presented at the Southern States Communication Association Annual Conference, Louisville, KY.</li>  
+				<li>Hartley, J. & Chesworth, K. (2000). Qualitative and quantitative methods in research on essay writing: no one way. <em>Journal of Further and Higher Education, 24,</em> 15–24.</li>
+				<li>Lizzio, A. & Wilson, K. (2008). Feedback on assessment: Students’ perceptions of quality and effectiveness. <em>Assessment & Evaluation in Higher Education, 33,</em> 263–275.</li>
+				<li>Tanes, Z., Arnold, K. E., Selzer King, A., Remnet, M. A. (2011). Using Signals for appropriate feedback: Perceptions and practices. <em>Computers & Education, 57,</em> 2414-2422.</li>
+				<li>Yorke, M. & Longden, B. (2006). The vital first year. <em>Academy Exchange, 4,</em> 16–17.</li>
+		   </ul>
+		</div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script><script src="js/vendor/jquery-ui-1.10.3.min.js"><\/script>')</script>
@@ -114,5 +136,22 @@
        	<script src="js/vendor/jquery.fancybox.js"></script>
 		
         <script src="js/main.js"></script>
+		
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script type="text/javascript">
+			  var _gaq = _gaq || [];
+			  /* Dev 
+			  _gaq.push(['_setAccount', 'UA-37566489-17']);	*/		   
+			  /* Prod*/
+			  _gaq.push(['_setAccount', 'UA-37566489-15']);
+			   
+			  _gaq.push(['_trackPageview']);
+			
+			  (function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		</script>
     </body>
 </html>
