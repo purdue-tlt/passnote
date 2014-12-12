@@ -86,7 +86,7 @@
                     Need help or have trouble accessing this page? Contact <a href="mailto:studiohelp@purdue.edu">studiohelp@purdue.edu</a>.
                 </p>
                 <p>
-                    Interested in using PassNote? <a href="passnote-opensource-1.1.0.zip">Download the source code</a>.<br />Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+                    Interested in using PassNote? <a id="download-link" href="passnote-opensource-1.1.0.zip">Download the source code</a>.<br />Licensed under the <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
                 </p>
             </footer>
 		</div>
@@ -128,30 +128,31 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script><script src="js/vendor/jquery-ui-1.10.3.min.js"><\/script>')</script>
-
         <script src="js/vendor/jquery.antiscroll.js"></script>
         <script src="js/vendor/jquery.tipsy.js"></script>
         <script src="js/vendor/jquery.dropdown.js"></script>
         <script src="js/vendor/ZeroClipboard/ZeroClipboard.js"></script>
-       	<script src="js/vendor/jquery.fancybox.js"></script>
-		
-        <script src="js/main.js"></script>
-		
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script type="text/javascript">
-			  var _gaq = _gaq || [];
-			  /* Dev 
-			  _gaq.push(['_setAccount', 'UA-37566489-17']);	*/		   
-			  /* Prod*/
-			  _gaq.push(['_setAccount', 'UA-37566489-15']);
-			   
-			  _gaq.push(['_trackPageview']);
-			
-			  (function() {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			  })();
-		</script>
+       	<script src="js/vendor/jquery.fancybox.js"></script>		
+        <script src="js/main.js"></script>		
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            // Dev
+            // ga('create', 'UA-37566489-17', 'auto');
+            // Prod
+            ga('create', 'UA-37566489-15', 'auto');
+            ga('send', 'pageview');
+        </script>
+        <script>
+            $(function () {
+                $('#download-link').on('click', function () {
+                    ga('send', 'event', 'ui_action', 'link_click', 'download-1.1.0');
+                });
+            });
+        </script>
     </body>
 </html>

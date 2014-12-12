@@ -422,13 +422,13 @@ $(function () {
         var selectedIDString = '';
         $.each(currentSnippets, function (i, snippet) {
             if (i != 0)
-                selectedIDString += ','
+                selectedIDString += ',';
             selectedIDString += snippet.id;
         });
         if (selectedIDString == '')
             return;
         console.log('blah = ' + selectedIDString);
-        _gaq.push(['_trackEvent', 'SelectedIDs', method, selectedIDString]);
+        ga('send', 'event', 'SelectedIDs', method, selectedIDString);
         return true;
     }
     $(document).on('click', '#noFlashCopy', function (e) {
