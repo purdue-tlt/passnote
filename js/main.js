@@ -1,7 +1,51 @@
+/*
+	PassNote v1.2.0 | Copyright 2014 Purdue University
+
+	Licensed under the Apache License, Version 2.0 (the "License");
+	you may not use this file except in compliance with the License.
+	You may obtain a copy of the License at
+
+	   http://www.apache.org/licenses/LICENSE-2.0
+
+	Unless required by applicable law or agreed to in writing, software
+	distributed under the License is distributed on an "AS IS" BASIS,
+	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	See the License for the specific language governing permissions and
+	limitations under the License.
+*/
+
+// Avoid `console` errors in browsers that lack a console.
+(function() {
+    var method;
+    var noop = function () {};
+    var methods = [
+        'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+        'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+        'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+        'timeStamp', 'trace', 'warn'
+    ];
+    var length = methods.length;
+    var console = (window.console = window.console || {});
+
+    while (length--) {
+        method = methods[length];
+
+        // Only stub undefined methods.
+        if (!console[method]) {
+            console[method] = noop;
+        }
+    }
+}());
+
 $(function () {
 
-    function changeColor() { $('.control-item').css('background-color', $('.ui-tabs-active').css('background-color')); }
-    $(document).ready(function () { changeColor(); tabLoop(); }).on('click', '#red, #yellow, #green', function () { changeColor(); });
+    function changeColor() {
+        $('.control-item').css('background-color', $('.ui-tabs-active').css('background-color'));
+    }
+    $(document).ready(function () {
+        changeColor();
+        tabLoop();
+    }).on('click', '#red, #yellow, #green', changeColor);
 
     $("#help-word-count").fancybox({
         maxWidth: 600,
@@ -23,7 +67,7 @@ $(function () {
     var currentColorId = 0;
     var $currentColor = $('#color-0');
     var currentCategoryId = -1;
-    var currentLevels = [0, 1]
+    var currentLevels = [0, 1];
     var currentSnippets = [];
 
     var $wordCountElem = $('#word-count i');
@@ -92,7 +136,6 @@ $(function () {
             $("#help1, #help2").hide();
             $("#word-count").show();
         }
-
     });
 
     var movingSnippetId, movingSnippet, movingSnippetOriginalIndex;
@@ -136,8 +179,6 @@ $(function () {
             document.location.href = "mailto:?body=" + body;
         }, 150);
     });
-
-    
 
     function generateEmailBody(linebreaks) {
         linebreaks = linebreaks ? linebreaks : false;
@@ -232,8 +273,8 @@ $(function () {
                 .appendTo($currentColor.find('.snippets'));
             }
         });
-        tabLoop();
 
+        tabLoop();
     }
 
     function updateSnippet(id, selected) {
@@ -338,8 +379,7 @@ $(function () {
         }
         return val;
     }
-    
-   
+     
     // ZeroClipboard
     var clip = new ZeroClipboard($("#copytoclipboard"), {
         moviePath: "js/vendor/ZeroClipboard/ZeroClipboard.swf"
@@ -351,8 +391,8 @@ $(function () {
 
     clip.on('noFlash', function (client) {
         console.log("Your browser has no Flash.");
-        $('#copytoclipboard').hide()
-        $('#noFlashCopy').show()
+        $('#copytoclipboard').hide();
+        $('#noFlashCopy').show();
     });
 
     clip.on('wrongFlash', function (client, args) {
@@ -570,7 +610,6 @@ $(document).on("keydown", function (e) {
 
 /* Enter key Behavior */
 
-
 //enter triggers click for dropdown
 $('#controls').on('keydown', '.cd-dropdown li', function (e) {
     if (e.which === 13) {
@@ -628,7 +667,7 @@ function tabLoop() {
 
 
 
-    //if delete with keyboard stay focused in note
+    // if delete with keyboard stay focused in note
     $('.delete').off('keydown');
     $('.delete').on('keydown', function (e) {
         if (e.which === 13) {
@@ -638,7 +677,7 @@ function tabLoop() {
         }
     });
 
-    //allow getting out of fancy box easily
+    // allow getting out of fancy box easily
     $("#help-word-count").off('keydown');
     $('#help-word-count').on('keydown', function (e) {
         if (e.which === 13) {
@@ -648,13 +687,13 @@ function tabLoop() {
         }
     });
 
-    //unset and reapply focus behavior to tabs
+    // unset and reapply focus behavior to tabs
     $(".ui-tabs-anchor").off("focus");
     $(".ui-tabs-anchor").on("focus", function () {
         $(this).click();
     });
 
-    //sometimes tabindex of menu seems to stick around, if you tab in this will open the dropdown
+    // sometimes tabindex of menu seems to stick around, if you tab in this will open the dropdown
     $(".cd-dropdown li").off("focus");
     $(".cd-dropdown li").on("focus", function () {
         if (!$(".control-item").first().find(".cd-dropdown").hasClass("cd-active")) {
@@ -662,4 +701,3 @@ function tabLoop() {
         }
     });
 }
-
