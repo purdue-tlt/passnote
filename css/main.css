@@ -1,5 +1,5 @@
 /*
-	PassNote v1.2.0 | Copyright 2014 Purdue University
+	PassNote v1.3.0 | Copyright 2014 Purdue University
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
@@ -34,6 +34,9 @@ body		{background:url(../img/right-bg.gif) repeat-x fixed #D9DEDF;}
 
 #messageBox	{display:none; background:#fff; background-color:#FFFF99; text-align:center; top:-20px; width:680px; font:400 18px 'Raleway', sans-serif; font-weight:bold; color:#7d2716; margin:20px auto 0; padding:.5em 1em .5em; box-shadow:0 0 10px rgba(0,0,0,.3); position:relative;}
 .greeting	{font:400 30px 'Raleway', sans-serif; color:#7d2716; height:100px; line-height:100px;}
+.instructions	{padding: 50px; text-align:left; margin:0 auto; width:800px; background:#fff;box-shadow:0 0 8px rgba(0,0,0,.2); top:-10px;}
+	.instructions h3 {border-bottom: 2px solid #1a6cac; padding-bottom: 5px; text-transform: uppercase; font-size:130%;}
+	.instructions h4 {color: #1a6cac; font-size:130%;}
 
 /* ==========================================================================
    TABS - EMAIL COPY RESEARCH
@@ -76,7 +79,13 @@ body		{background:url(../img/right-bg.gif) repeat-x fixed #D9DEDF;}
 #lefty							{position:fixed; left:0; top:0; bottom:0; width:278px; background:#c6cccd; box-shadow:inset -8px 0 10px -4px rgba(0,0,0,.5);}
 #lefty h1						{background:url(../img/left-bg.gif) repeat-x 0 0 #1c6dad; margin:0; padding:0; height:52px; text-align:center; box-shadow:inset -8px 0 10px -4px rgba(0,0,0,.5);}
 #lefty #control-bar			{margin:0 0 5px; padding:5px 0 14px; background:#96a5a7; box-shadow:0 3px 2px -1px rgba(0,0,0,.4), inset -8px 0 10px -4px rgba(0,0,0,.5);}
-#lefty #wrapper-snippets	{position:absolute; top:166px; bottom:0; overflow-x:hidden; overflow-y:auto;}
+#lefty #wrapper-snippets	{
+	position: absolute;
+	top: 155px;
+	bottom: 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
 
 /* ==========================================================================
    RED YELLOW GREEN TABS
@@ -133,10 +142,10 @@ body		{background:url(../img/right-bg.gif) repeat-x fixed #D9DEDF;}
 /* ==========================================================================
    FOOTER
    ========================================================================== */
-footer				{min-width:767px; font:300 12px/1.5 'Open Sans', sans-serif; color:#888; text-align:center; margin:0; padding:10px 2em 0; position:relative; z-index:2; transition:all .5s; border-top: 1px solid #ccc;}
+footer				{min-width:767px; font:300 12px/1.5 'Open Sans', sans-serif; color:#444; text-align:center; margin:0; padding:10px 2em 0; position:relative; z-index:2; transition:all .5s; border-top: 1px solid #ccc;}
 footer p			{margin:0;}
 footer a			{color:#8db0d4; text-decoration:none;}
-footer a:hover      {color:#555; text-decoration:underline;}
+footer a:hover      {color:#426385; text-decoration:underline;}
 footer p            {margin: 2em 0;}
 #purdue-logo        {border-right:solid 1px #bbb; padding:10px 15px; display:inline-block}
 #studio-logo        {padding:10px 15px}

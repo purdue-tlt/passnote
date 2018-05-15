@@ -1,20 +1,20 @@
 /*
-	PassNote v1.2.0 | Copyright 2014 Purdue University
+    PassNote v1.3.0 | Copyright 2014 Purdue University
 
-	Licensed under the Apache License, Version 2.0 (the "License");
-	you may not use this file except in compliance with the License.
-	You may obtain a copy of the License at
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-	   http://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0
 
-	Unless required by applicable law or agreed to in writing, software
-	distributed under the License is distributed on an "AS IS" BASIS,
-	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	See the License for the specific language governing permissions and
-	limitations under the License.
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 */
 
-// Avoid `console` errors in browsers that lack a console
+// Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
     var noop = function () {};
@@ -48,6 +48,18 @@ $(function () {
     }).on('click', '#red, #yellow, #green', changeColor);
 
     $("#help-word-count").fancybox({
+        maxWidth: 600,
+        maxHeight: 800,
+        fitToView: false,
+        width: '70%',
+        height: '70%',
+        autoSize: false,
+        closeClick: false,
+        openEffect: 'none',
+        closeEffect: 'none'
+    });
+
+    $("#science").fancybox({
         maxWidth: 600,
         maxHeight: 800,
         fitToView: false,
@@ -431,13 +443,13 @@ $(function () {
         var selectedIDString = '';
         $.each(currentSnippets, function (i, snippet) {
             if (i != 0)
-                selectedIDString += ','
+                selectedIDString += ',';
             selectedIDString += snippet.id;
         });
         if (selectedIDString == '')
             return;
         console.log('blah = ' + selectedIDString);
-        _gaq.push(['_trackEvent', 'SelectedIDs', method, selectedIDString]);
+        ga('send', 'event', 'SelectedIDs', method, selectedIDString);
         return true;
     }
     $(document).on('click', '#noFlashCopy', function (e) {
@@ -680,6 +692,15 @@ function tabLoop() {
     // allow getting out of fancy box easily
     $("#help-word-count").off('keydown');
     $('#help-word-count').on('keydown', function (e) {
+        if (e.which === 13) {
+            $(this).click();
+            $(".fancybox-close").first().focus();
+            e.preventDefault();
+        }
+    });
+
+    $("#science").off('keydown');
+    $('#science').on('keydown', function (e) {
         if (e.which === 13) {
             $(this).click();
             $(".fancybox-close").first().focus();
